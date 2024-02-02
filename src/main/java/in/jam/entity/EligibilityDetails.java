@@ -15,10 +15,10 @@ public class EligibilityDetails {
 	@Id
 	private Integer eligId;
 	private String name;
-	private Long mobile;
+	private int mobile;
 	private String email;
 	private Character gender;
-	private Long ssn;
+	private int ssn;
 	private String planName;
 	private String planStatus;
 	private LocalDate planStartDate;
@@ -39,10 +39,10 @@ public class EligibilityDetails {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public Long getMobile() {
+	public int getMobile() {
 		return mobile;
 	}
-	public void setMobile(Long mobile) {
+	public void setMobile(int mobile) {
 		this.mobile = mobile;
 	}
 	public String getEmail() {
@@ -57,10 +57,10 @@ public class EligibilityDetails {
 	public void setGender(Character gender) {
 		this.gender = gender;
 	}
-	public Long getSsn() {
+	public int getSsn() {
 		return ssn;
 	}
-	public void setSsn(Long ssn) {
+	public void setSsn(int ssn) {
 		this.ssn = ssn;
 	}
 	public String getPlanName() {
@@ -118,6 +118,8 @@ public class EligibilityDetails {
 				+ ", planStartDate=" + planStartDate + ", planEndDate=" + planEndDate + ", createdDate=" + createdDate
 				+ ", updateddate=" + updateddate + ", createdBy=" + createdBy + ", updatedBy=" + updatedBy + "]";
 	}
+	
+	
 	
 	
 	
